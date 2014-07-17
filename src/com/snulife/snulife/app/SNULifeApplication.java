@@ -6,6 +6,7 @@ import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
 import com.parse.Parse;
+import com.parse.ParseInstallation;
 import com.parse.PushService;
 import com.snulife.snulife.app.activity.MainActivity;
 
