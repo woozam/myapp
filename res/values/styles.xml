@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!--
         Base application theme, dependent on API level. This theme is replaced
@@ -22,6 +22,29 @@
         <item name="android:indeterminateDrawable">@drawable/progress_indeterminate_horizontal</item>
         <item name="android:minHeight">3dip</item>
         <item name="android:maxHeight">3dip</item>
+    </style>
+    
+    <style name="ToastDefault">
+        <item name="android:paddingTop">@dimen/padding_top_toast_default</item>
+        <item name="android:paddingBottom">@dimen/padding_bottom_toast_default</item>
+        <item name="android:paddingLeft">@dimen/padding_left_toast_default</item>
+        <item name="android:paddingRight">@dimen/padding_right_toast_default</item>
+        <item name="android:background">@drawable/bg_toast</item>
+    </style>
+
+    <style name="ToastDefaultTitle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="ToastDefaultContent">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:ellipsize">end</item>
     </style>
 
 </resources>

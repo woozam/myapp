@@ -1,9 +1,36 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/refresh"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/refresh"
+        android:icon="@drawable/ic_action_refresh" />
+    <item
+        android:id="@+id/stop"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/stop"
+        android:icon="@drawable/ic_action_cancel" />
+    <item
+        android:id="@+id/back"
         android:orderInCategory="100"
         android:showAsAction="never"
-        android:title="@string/action_settings"/>
+        android:title="@string/back"/>
+    <item
+        android:id="@+id/next"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/next"/>
+    <item
+        android:id="@+id/copy_link"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/copy_link"/>
+    <item
+        android:id="@+id/open_browser"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/open_browser"/>
 
 </menu>
