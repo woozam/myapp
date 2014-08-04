@@ -12,6 +12,7 @@ public final class R {
     }
     public static final class color {
         public static final int bg_list_selected=0x7f040000;
+        public static final int white=0x7f040001;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -22,47 +23,71 @@ public final class R {
          */
         public static final int activity_horizontal_margin=0x7f050000;
         public static final int activity_vertical_margin=0x7f050001;
+        public static final int padding_bottom_toast_default=0x7f050003;
+        public static final int padding_left_toast_default=0x7f050004;
+        public static final int padding_right_toast_default=0x7f050005;
+        public static final int padding_top_toast_default=0x7f050002;
     }
     public static final class drawable {
         public static final int bg_list_row_selector=0x7f020000;
-        public static final int ic_drawer=0x7f020001;
-        public static final int ic_launcher=0x7f020002;
-        public static final int progress_bg=0x7f020003;
-        public static final int progress_horizontal=0x7f020004;
-        public static final int progress_indeterminate_horizontal=0x7f020005;
-        public static final int progress_primary=0x7f020006;
-        public static final int progress_secondary=0x7f020007;
-        public static final int progressbar_indeterminate_holo1=0x7f020008;
-        public static final int progressbar_indeterminate_holo2=0x7f020009;
-        public static final int progressbar_indeterminate_holo3=0x7f02000a;
-        public static final int progressbar_indeterminate_holo4=0x7f02000b;
-        public static final int progressbar_indeterminate_holo5=0x7f02000c;
-        public static final int progressbar_indeterminate_holo6=0x7f02000d;
-        public static final int progressbar_indeterminate_holo7=0x7f02000e;
-        public static final int progressbar_indeterminate_holo8=0x7f02000f;
+        public static final int bg_toast=0x7f020001;
+        public static final int ic_action_cancel=0x7f020002;
+        public static final int ic_action_refresh=0x7f020003;
+        public static final int ic_drawer=0x7f020004;
+        public static final int ic_launcher=0x7f020005;
+        public static final int icon_notification=0x7f020006;
+        public static final int progress_bg=0x7f020007;
+        public static final int progress_horizontal=0x7f020008;
+        public static final int progress_indeterminate_horizontal=0x7f020009;
+        public static final int progress_primary=0x7f02000a;
+        public static final int progress_secondary=0x7f02000b;
+        public static final int progressbar_indeterminate_holo1=0x7f02000c;
+        public static final int progressbar_indeterminate_holo2=0x7f02000d;
+        public static final int progressbar_indeterminate_holo3=0x7f02000e;
+        public static final int progressbar_indeterminate_holo4=0x7f02000f;
+        public static final int progressbar_indeterminate_holo5=0x7f020010;
+        public static final int progressbar_indeterminate_holo6=0x7f020011;
+        public static final int progressbar_indeterminate_holo7=0x7f020012;
+        public static final int progressbar_indeterminate_holo8=0x7f020013;
     }
     public static final class id {
-        public static final int action_settings=0x7f090006;
+        public static final int back=0x7f09000d;
+        public static final int copy_link=0x7f09000f;
         public static final int main_drawer=0x7f090000;
         public static final int main_menu=0x7f090003;
-        public static final int main_menu_exit=0x7f090005;
-        public static final int main_menu_test_page=0x7f090004;
+        public static final int main_menu_exit=0x7f090006;
+        public static final int main_menu_home=0x7f090004;
+        public static final int main_menu_test_page=0x7f090005;
+        public static final int main_menu_version=0x7f090007;
         public static final int main_progress_bar=0x7f090002;
         public static final int main_root=0x7f090001;
+        public static final int next=0x7f09000e;
+        public static final int open_browser=0x7f090010;
+        public static final int refresh=0x7f09000b;
+        public static final int stop=0x7f09000c;
+        public static final int toast_default_content=0x7f09000a;
+        public static final int toast_default_image=0x7f090008;
+        public static final int toast_default_title=0x7f090009;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int main_menu_layout=0x7f030001;
+        public static final int toast_default=0x7f030002;
     }
     public static final class menu {
         public static final int main=0x7f080000;
     }
     public static final class string {
-        public static final int action_settings=0x7f060001;
         public static final int app_name=0x7f060000;
-        public static final int close_drawer=0x7f060004;
-        public static final int hello_world=0x7f060002;
-        public static final int open_drawer=0x7f060003;
+        public static final int back=0x7f060006;
+        public static final int close_drawer=0x7f060003;
+        public static final int copy_link=0x7f060008;
+        public static final int hello_world=0x7f060001;
+        public static final int next=0x7f060007;
+        public static final int open_browser=0x7f060009;
+        public static final int open_drawer=0x7f060002;
+        public static final int refresh=0x7f060004;
+        public static final int stop=0x7f060005;
     }
     public static final class style {
         /** 
@@ -93,6 +118,9 @@ public final class R {
  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f070001;
+        public static final int ToastDefault=0x7f070003;
+        public static final int ToastDefaultContent=0x7f070005;
+        public static final int ToastDefaultTitle=0x7f070004;
         public static final int Widget_Holo_ProgressBar_Horizontal_Custom=0x7f070002;
     }
 }

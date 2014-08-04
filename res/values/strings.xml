@@ -2,9 +2,15 @@
 <resources>
 
     <string name="app_name">SNULife</string>
-    <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="open_drawer">Open drawer</string>
     <string name="close_drawer">Close drawer</string>
+    <string name="refresh">새로고침</string>
+    <string name="stop">중지</string>
+    <string name="back">뒤로</string>
+    <string name="next">앞으로</string>
+    <string name="copy_link">링크 복사</string>
+    <string name="open_browser">브라우저로 열기</string>
+    
 
 </resources>
